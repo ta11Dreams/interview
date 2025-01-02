@@ -42,7 +42,7 @@ public class App {
   }
 
   public static void dpFibonacci() {
-    Fibonacci f = new Fibonacci();
+    Fibonacci f = new Fibonacci(2);
     System.out.println(f.fib(5));
     System.out.println(f.fib(7));
     System.out.println(f.fib(10));
